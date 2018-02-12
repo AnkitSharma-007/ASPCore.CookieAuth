@@ -1,0 +1,54 @@
+﻿@model CookieAuthDemo.Models.UserDetails
+@{
+    ViewData["Title"] = "UserLogin";
+}
+<h2>Register</h2>
+<h4>New User</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        @if (TempData["Success"] != null)
+        {
+            <p class="alert alert-success">@TempData["Success"]  <a asp-action="UserLogin">Click here to login</a></p>
+        }
+        @if (TempData["Fail"] != null)
+        {
+            <p class="alert alert-danger">@TempData["Fail"]</p>
+        }
+        <form asp-action="RegisterUser">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserID" class="control-label"></label>
+                <input asp-for="UserID" class="form-control" />
+                <span asp-validation-for="UserID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Register" class="btn btn-default btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="UserLogin">Back to User Login</a>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+
+

@@ -1,0 +1,11 @@
+c:\users\ankit\source\repos\CookieAuthDemo\CookieAuthDemo\bin\Debug\netcoreapp2.0\CookieAuthDemo.deps.json
+c:\users\ankit\source\repos\CookieAuthDemo\CookieAuthDemo\bin\Debug\netcoreapp2.0\CookieAuthDemo.runtimeconfig.json
+c:\users\ankit\source\repos\CookieAuthDemo\CookieAuthDemo\bin\Debug\netcoreapp2.0\CookieAuthDemo.runtimeconfig.dev.json
+c:\users\ankit\source\repos\CookieAuthDemo\CookieAuthDemo\bin\Debug\netcoreapp2.0\CookieAuthDemo.dll
+c:\users\ankit\source\repos\CookieAuthDemo\CookieAuthDemo\obj\Debug\netcoreapp2.0\CookieAuthDemo.csprojResolveAssemblyReference.cache
+c:\users\ankit\source\repos\CookieAuthDemo\CookieAuthDemo\obj\Debug\netcoreapp2.0\CookieAuthDemo.csproj.CoreCompileInputs.cache
+c:\users\ankit\source\repos\CookieAuthDemo\CookieAuthDemo\obj\Debug\netcoreapp2.0\CookieAuthDemo.AssemblyInfoInputs.cache
+c:\users\ankit\source\repos\CookieAuthDemo\CookieAuthDemo\obj\Debug\netcoreapp2.0\CookieAuthDemo.AssemblyInfo.cs
+c:\users\ankit\source\repos\CookieAuthDemo\CookieAuthDemo\bin\Debug\netcoreapp2.0\CookieAuthDemo.pdb
+c:\users\ankit\source\repos\CookieAuthDemo\CookieAuthDemo\obj\Debug\netcoreapp2.0\CookieAuthDemo.dll
+c:\users\ankit\source\repos\CookieAuthDemo\CookieAuthDemo\obj\Debug\netcoreapp2.0\CookieAuthDemo.pdb
